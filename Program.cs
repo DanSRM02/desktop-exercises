@@ -3,8 +3,11 @@ string input = Console.ReadLine() ?? "empty";
 
 switch (input)
 {
-    case "1":
+    case "23":
         ExercisesPartTwo.Exercise23.CalculateRabbitPopulation(15000, 7000);
+        break;
+    case "14":
+        ExercisesPartOne.Exercise14.CalculateFibonacci(5);
         break;
     default:
         Console.WriteLine("Exercise not found.");
