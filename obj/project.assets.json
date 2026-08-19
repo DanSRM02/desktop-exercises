@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/daniel.ramirez/Documents/desktop-exercises/Exercise23/Exercise23.csproj",
+      "projectUniqueName": "/Users/daniel.ramirez/Documents/desktop-exercises/Exercise23.csproj",
       "projectName": "Exercise23",
-      "projectPath": "/Users/daniel.ramirez/Documents/desktop-exercises/Exercise23/Exercise23.csproj",
+      "projectPath": "/Users/daniel.ramirez/Documents/desktop-exercises/Exercise23.csproj",
       "packagesPath": "/Users/daniel.ramirez/.nuget/packages/",
-      "outputPath": "/Users/daniel.ramirez/Documents/desktop-exercises/Exercise23/obj/",
+      "outputPath": "/Users/daniel.ramirez/Documents/desktop-exercises/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/daniel.ramirez/.nuget/NuGet/NuGet.Config"
