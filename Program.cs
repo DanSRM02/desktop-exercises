@@ -4,7 +4,7 @@ string input = Console.ReadLine() ?? "empty";
 switch (input)
 {
     case "1":
-        Exersice23.CalculateRabbitPopulation(15000, 7000);
+        ExercisesPartTwo.Exercise23.CalculateRabbitPopulation(15000, 7000);
         break;
     default:
         Console.WriteLine("Exercise not found.");

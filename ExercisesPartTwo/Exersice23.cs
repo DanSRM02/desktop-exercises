@@ -1,4 +1,6 @@
-public class Exersice23
+namespace ExercisesPartTwo;
+
+public class Exercise23
 {
   public static void CalculateRabbitPopulation(int today_population, int yesterday_population)
   {
@@ -12,6 +14,8 @@ public class Exersice23
       today_population = tomorrow_population;
       counter++;
     }
+
+    
 
     Console.WriteLine($"day to export rabbit remaning {counter}");
   }
