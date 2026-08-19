@@ -8,7 +8,7 @@ class Exercise14
         int currentValue = 1;
         int prevValue = 0;
 
-        Console.WriteLine("Enter the number of population from yesterday");
+        Console.WriteLine("Enter a number to see the fibonacci sequence");
         int iterator = int.Parse(Console.ReadLine());
 
         for (int i = 0; i <= iterator; i++)
