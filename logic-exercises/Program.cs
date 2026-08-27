@@ -12,6 +12,9 @@ switch (input)
     case "73":
         ExercisesPartSeven.Exercise73.CalculateFactorialNumber();
         break;
+    case "55":
+        ExercisesPartFive.Exercise55.CalculateLoan();
+        break;
     default:
         Console.WriteLine("Exercise not found.");
         break;
