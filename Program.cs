@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using System;
 
-namespace calculator_with_avalonia;
+namespace desktop_exercises;
 
 class Program
 {

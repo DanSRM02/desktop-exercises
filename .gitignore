@@ -20,6 +20,8 @@
 mono_crash.*
 
 # Build results
+[Bb]in/
+[Oo]bj/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -81,6 +83,7 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+*.calculator-with-avalonia/obj
 *.iobj
 *.pch
 *.pdb

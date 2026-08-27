@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace calculator_with_avalonia;
+namespace desktop_exercises;
 
 public partial class MainWindow : Window
 {

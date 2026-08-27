@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
-namespace calculator_with_avalonia;
+namespace desktop_exercises;
 
 public partial class App : Application
 {
