@@ -1,4 +1,4 @@
-﻿namespace Calculator
+﻿namespace CalculatorScope
 {
     partial class Calculator
     {
