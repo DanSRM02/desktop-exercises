@@ -25,7 +25,7 @@ namespace Calculator
         private void Operator_Clicks(object sender, EventArgs e)
         {
             Button selectedOperator = (Button)sender;
-            string botonTexto = selectedOperator.Text;
+            string botonTexto = selectedOperator.Text;            
 
             if (botonTexto == "C")
             {
@@ -33,6 +33,7 @@ namespace Calculator
                 currentNumber = 0;
                 prevNumber = 0;
                 pendingOperation = "";
+                label1.Text = "";
                 return;
             }
 
@@ -56,6 +57,7 @@ namespace Calculator
             if (botonTexto == "=")
             {
                 CalculateOption( prevNumber, currentNumber, pendingOperation);
+                label1.Text = "";
                 textBox1.Clear();
             }
             else
@@ -63,6 +65,7 @@ namespace Calculator
                 pendingOperation = botonTexto;
                 prevNumber = currentNumber;
                 currentNumber = 0;
+                label1.Text = $"Operación: {botonTexto}";
                 textBox1.Clear();
             }
         }
