@@ -31,7 +31,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ejerciciosDel110ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejerciciosDel1117ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,6 +40,7 @@
             this.numero8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejerciciosDel1117ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numero13ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -86,20 +86,6 @@
             this.numero1ToolStripMenuItem.Text = "Numero1";
             this.numero1ToolStripMenuItem.Click += new System.EventHandler(this.numero1ToolStripMenuItem_Click);
             // 
-            // ejerciciosDel1117ToolStripMenuItem
-            // 
-            this.ejerciciosDel1117ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.numero11ToolStripMenuItem,
-            this.numero12ToolStripMenuItem,
-            this.numero13ToolStripMenuItem,
-            this.numero14ToolStripMenuItem,
-            this.numero15ToolStripMenuItem,
-            this.numero16ToolStripMenuItem,
-            this.numero17ToolStripMenuItem});
-            this.ejerciciosDel1117ToolStripMenuItem.Name = "ejerciciosDel1117ToolStripMenuItem";
-            this.ejerciciosDel1117ToolStripMenuItem.Size = new System.Drawing.Size(125, 20);
-            this.ejerciciosDel1117ToolStripMenuItem.Text = "Ejercicios del 11 - 17";
-            // 
             // numero2ToolStripMenuItem
             // 
             this.numero2ToolStripMenuItem.Name = "numero2ToolStripMenuItem";
@@ -112,6 +98,7 @@
             this.numero3ToolStripMenuItem.Name = "numero3ToolStripMenuItem";
             this.numero3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.numero3ToolStripMenuItem.Text = "Numero3";
+            this.numero3ToolStripMenuItem.Click += new System.EventHandler(this.numero3ToolStripMenuItem_Click);
             // 
             // numero4ToolStripMenuItem
             // 
@@ -155,46 +142,60 @@
             this.numero10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.numero10ToolStripMenuItem.Text = "Numero10";
             // 
+            // ejerciciosDel1117ToolStripMenuItem
+            // 
+            this.ejerciciosDel1117ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.numero11ToolStripMenuItem,
+            this.numero12ToolStripMenuItem,
+            this.numero13ToolStripMenuItem,
+            this.numero14ToolStripMenuItem,
+            this.numero15ToolStripMenuItem,
+            this.numero16ToolStripMenuItem,
+            this.numero17ToolStripMenuItem});
+            this.ejerciciosDel1117ToolStripMenuItem.Name = "ejerciciosDel1117ToolStripMenuItem";
+            this.ejerciciosDel1117ToolStripMenuItem.Size = new System.Drawing.Size(125, 20);
+            this.ejerciciosDel1117ToolStripMenuItem.Text = "Ejercicios del 11 - 17";
+            // 
             // numero11ToolStripMenuItem
             // 
             this.numero11ToolStripMenuItem.Name = "numero11ToolStripMenuItem";
-            this.numero11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numero11ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.numero11ToolStripMenuItem.Text = "Numero11";
             // 
             // numero12ToolStripMenuItem
             // 
             this.numero12ToolStripMenuItem.Name = "numero12ToolStripMenuItem";
-            this.numero12ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numero12ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.numero12ToolStripMenuItem.Text = "Numero12";
             // 
             // numero13ToolStripMenuItem
             // 
             this.numero13ToolStripMenuItem.Name = "numero13ToolStripMenuItem";
-            this.numero13ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numero13ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.numero13ToolStripMenuItem.Text = "Numero13";
             // 
             // numero14ToolStripMenuItem
             // 
             this.numero14ToolStripMenuItem.Name = "numero14ToolStripMenuItem";
-            this.numero14ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numero14ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.numero14ToolStripMenuItem.Text = "Numero14";
             // 
             // numero15ToolStripMenuItem
             // 
             this.numero15ToolStripMenuItem.Name = "numero15ToolStripMenuItem";
-            this.numero15ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numero15ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.numero15ToolStripMenuItem.Text = "Numero15";
             // 
             // numero16ToolStripMenuItem
             // 
             this.numero16ToolStripMenuItem.Name = "numero16ToolStripMenuItem";
-            this.numero16ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numero16ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.numero16ToolStripMenuItem.Text = "Numero16";
             // 
             // numero17ToolStripMenuItem
             // 
             this.numero17ToolStripMenuItem.Name = "numero17ToolStripMenuItem";
-            this.numero17ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numero17ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.numero17ToolStripMenuItem.Text = "Numero17";
             // 
             // Menu
