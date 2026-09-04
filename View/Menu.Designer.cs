@@ -105,6 +105,7 @@
             this.numero4ToolStripMenuItem.Name = "numero4ToolStripMenuItem";
             this.numero4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.numero4ToolStripMenuItem.Text = "Numero4";
+            this.numero4ToolStripMenuItem.Click += new System.EventHandler(this.numero4ToolStripMenuItem_Click);
             // 
             // numero5ToolStripMenuItem
             // 
