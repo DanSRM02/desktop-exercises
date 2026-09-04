@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs">
+    <Compile Include="View\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Calculator.Designer.cs">
-      <DependentUpon>Calculator.cs</DependentUpon>
+    <Compile Include="View\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -58,11 +58,20 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Operator.cs" />
+    <Compile Include="Logic\Operator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Calculator.resx">
-      <DependentUpon>Calculator.cs</DependentUpon>
+    <Compile Include="View\Ejercicio1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ejercicio1.Designer.cs">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\Ejercicio1.resx">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

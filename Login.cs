@@ -20,7 +20,7 @@ namespace CalculatorScope
         {
             if (textBox1.Text == "Admin" && maskedTextBox1.Text == "123")
             {
-                Calculator calculator = new Calculator();
+                Menu calculator = new Menu();
                 calculator.Show();
                 this.Hide();
             }
