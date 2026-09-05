@@ -147,6 +147,7 @@
             this.numero10ToolStripMenuItem.Name = "numero10ToolStripMenuItem";
             this.numero10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.numero10ToolStripMenuItem.Text = "Numero10";
+            this.numero10ToolStripMenuItem.Click += new System.EventHandler(this.numero10ToolStripMenuItem_Click);
             // 
             // ejerciciosDel1117ToolStripMenuItem
             // 
@@ -201,7 +202,7 @@
             // numero17ToolStripMenuItem
             // 
             this.numero17ToolStripMenuItem.Name = "numero17ToolStripMenuItem";
-            this.numero17ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numero17ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.numero17ToolStripMenuItem.Text = "Numero17";
             this.numero17ToolStripMenuItem.Click += new System.EventHandler(this.numero17ToolStripMenuItem_Click);
             // 
