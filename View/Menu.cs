@@ -7,7 +7,7 @@ namespace CalculatorScope
 {
     public partial class Menu : Form
     {
-        Form frmAbierto;
+        
         public Menu()
         {
             InitializeComponent();
@@ -75,5 +75,9 @@ namespace CalculatorScope
             OpenExercises<Ejercicio17>();
         }
 
+        private void numero9ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenExercises<Ejercicio9>();
+        }
     }
 }
