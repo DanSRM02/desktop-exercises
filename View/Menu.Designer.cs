@@ -172,8 +172,9 @@
             // numero12ToolStripMenuItem
             // 
             this.numero12ToolStripMenuItem.Name = "numero12ToolStripMenuItem";
-            this.numero12ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.numero12ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.numero12ToolStripMenuItem.Text = "Numero12";
+            this.numero12ToolStripMenuItem.Click += new System.EventHandler(this.numero12ToolStripMenuItem_Click);
             // 
             // numero13ToolStripMenuItem
             // 

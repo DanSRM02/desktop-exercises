@@ -84,5 +84,10 @@ namespace CalculatorScope
         {
             OpenExercises<Ejercicio10>();
         }
+
+        private void numero12ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenExercises<Ejercicio12>();
+        }
     }
 }
