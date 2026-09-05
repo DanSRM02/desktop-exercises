@@ -45,5 +45,17 @@ namespace Calculator.View
 
             textBox4.Text = finalTotal.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = string.Empty;
+            textBox2.Text = string.Empty;
+            textBox3.Text = string.Empty;
+        }
     }
 }
