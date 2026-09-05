@@ -46,6 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="View\Ejercicio10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ejercicio10.Designer.cs">
+      <DependentUpon>Ejercicio10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Ejercicio11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ejercicio11.Designer.cs">
+      <DependentUpon>Ejercicio11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Ejercicio12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ejercicio12.Designer.cs">
+      <DependentUpon>Ejercicio12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Ejercicio13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ejercicio13.Designer.cs">
+      <DependentUpon>Ejercicio13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Ejercicio14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ejercicio14.Designer.cs">
+      <DependentUpon>Ejercicio14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Ejercicio9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ejercicio9.Designer.cs">
+      <DependentUpon>Ejercicio9.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Ejercicio17.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +124,12 @@
     <Compile Include="View\Ejercicio7.Designer.cs">
       <DependentUpon>Ejercicio7.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Ejercicio8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ejercicio8.Designer.cs">
+      <DependentUpon>Ejercicio8.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +154,24 @@
     <EmbeddedResource Include="View\Ejercicio1.resx">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Ejercicio10.resx">
+      <DependentUpon>Ejercicio10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ejercicio11.resx">
+      <DependentUpon>Ejercicio11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ejercicio12.resx">
+      <DependentUpon>Ejercicio12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ejercicio13.resx">
+      <DependentUpon>Ejercicio13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ejercicio14.resx">
+      <DependentUpon>Ejercicio14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ejercicio9.resx">
+      <DependentUpon>Ejercicio9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Ejercicio17.resx">
       <DependentUpon>Ejercicio17.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +189,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Ejercicio6.resx">
       <DependentUpon>Ejercicio6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ejercicio7.resx">
+      <DependentUpon>Ejercicio7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ejercicio8.resx">
+      <DependentUpon>Ejercicio8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
