@@ -11,18 +11,11 @@ using System.Windows.Forms;
 
 namespace Calculator.View
 {
-    public partial class Ejercicio5 : Form
+    public partial class Ejercicio6 : Form
     {
-        public Ejercicio5()
+        public Ejercicio6()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = string.Empty;
-            textBox2.Text = string.Empty;
-            textBox3.Text = string.Empty;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,17 +38,12 @@ namespace Calculator.View
                 return;
             }
 
-            double totalCorrectAnswer = Operator.Multiply(firstValue, 4);
-            double totalIncorrectAnswers = Operator.Multiply(secondValue, -1);
+            double totalCorrectAnswer = Operator.Multiply(firstValue, 3);
+            double totalIncorrectAnswers = Operator.Multiply(secondValue, 1);
 
             double finalTotal = Operator.Add(totalCorrectAnswer, totalIncorrectAnswers);
 
             textBox4.Text = finalTotal.ToString();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
